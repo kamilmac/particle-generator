@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Particle generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+
+    <!-- inject:css -->
+    <!-- endinject -->
+    
+    <!-- inject:js -->
+    <!-- endinject -->
+    
+    <script>
+        System.config({
+            packages: {        
+                app: {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('./app/index')
+            .then(null, console.error.bind(console));
+    </script>
+
+<body>
+    <app>Loading...</app>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	"files.exclude": {
+        "client/**/dev": true,
+        "client/**/node_modules": true,
+        "client/**/typings": true,
+        // "app/**/*.map": true
+	}
+}
